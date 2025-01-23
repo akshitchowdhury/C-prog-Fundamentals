@@ -12,9 +12,12 @@
 
 int main(){
 
-    char name[] = "Shura";
+    int num1, num2, result;
+    num1 = 10;
+    num2 = 30;
+    result = num1+num2;
 
-    printf("The name is %s\n", name);
+    printf("The summation result is %d", result);
 
     return 0;
 }
